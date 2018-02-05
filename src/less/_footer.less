@@ -1,0 +1,32 @@
+.footer {
+  text-align: center;
+  height: 8.5em;
+
+  &__title {
+    font-weight: 400;
+    margin-top: 1.3em;
+    margin-bottom: 0.2em;
+    word-spacing: 0.16em;
+  }
+
+  &__slogan {
+    font-style: italic;
+    word-spacing: 0.05em;
+    margin-bottom: 0.1em;
+  }
+
+  .arrow-down {
+    animation: spin 1.5s linear 1s infinite;
+
+    &:hover {
+
+      @keyframes spin {
+        0% {transform: translateY(-3px);}
+        25% {transform: translateY(0px);}
+        50% {transform: translateY(3px);}
+        75% {transform: translateY(0px);}
+        100% {transform: translateY(-3px);}
+      }
+    }
+  }
+}

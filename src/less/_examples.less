@@ -1,0 +1,118 @@
+.examples {
+  text-align: center;
+
+  &__title {
+    font-weight: 400;
+    margin-top: 1.3em;
+    margin-bottom: 3.2em;
+    word-spacing: 0.16em;
+  }
+
+  &__content {
+    width: 52.2em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  &__content-item {
+    width: 270px;
+    margin-bottom: 1.8em;
+
+    &:nth-child(4) {
+      margin-left: 8.8em;
+    }
+
+    &:nth-child(5) {
+      margin-right: 8.8em;
+    }
+  }
+
+  &__content-link {
+    width: 270px;
+    height: 330px;
+  }
+
+  &__content-img_first {
+    background: url("../img/exmp11.jpg");
+    background-position: 0 32%;
+
+    &:hover {
+      background: url("../img/exmp12.jpg");
+      transition: all .2s ease;
+      background-size: cover;
+      background-position: 0 32%;
+    }
+  }
+
+  &__content-img_second {
+    background: url("../img/exmp21.jpg");
+    background-position: 0 32%;
+
+    &:hover {
+      background: url("../img/exmp22.jpg");
+      transition: all .2s ease;
+      background-size: cover;
+      background-position: 0 32%;
+    }
+  }
+
+  &__content-img_third {
+    background: url("../img/exmp31.jpg");
+    background-position: 0 32%;
+
+    &:hover {
+      background: url("../img/exmp32.jpg");
+      transition: all .2s ease;
+      background-size: cover;
+      background-position: 0 32%;
+    }
+  }
+
+  &__content-img_fourth {
+    background: url("../img/exmp41.jpg");
+    background-position: 0 0;
+
+    &:hover {
+      background: url("../img/exmp42.jpg");
+      transition: all .2s ease;
+      background-size: cover;
+      background-position: 0 0;
+    }
+  }
+
+  &__content-img_fifth {
+    background: url("../img/exmp51.jpg");
+    background-position: 0 91%;
+
+    &:hover {
+      background: url("../img/exmp52.jpg");
+      transition: all .2s ease;
+      background-size: cover;
+      background-position: 0 82%;
+    }
+  }
+
+  &__content-img {
+    width: 270px;
+    height: 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__content-description {
+    color: #000000;
+
+    &--title {
+      color: #818796;
+      font-weight: 400;
+      margin-top: 1em;
+      line-height: 1.2em;
+    }
+
+    &--text {
+      margin-top: 0.9em;
+    }
+  }
+}

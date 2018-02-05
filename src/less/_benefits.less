@@ -1,0 +1,54 @@
+.benefits {
+  text-align: center;
+  width: 47.5em;
+  height: 29em;
+  margin: 0 auto;
+
+  &__title {
+    font-weight: 400;
+    margin-top: 1.3em;
+    margin-bottom: 2.5em;
+    word-spacing: 0.16em;
+  }
+
+  &__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    &-item {
+      width: 22em;
+
+      &:hover .icon {
+        transform: rotate(360deg);
+      }
+
+      &:nth-child(n+3) {
+        margin-top: 5.5em;
+      }
+    }
+
+    &-icon {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 0.8em;
+      border: 1px solid #818796;
+      background-color: #818796;
+      border-radius: 50%;
+      padding: 2px 2px;
+      position: relative;
+    }
+
+    .icon {
+      position: absolute;
+      top: 18%;
+      left: 18%;
+      transition: transform .5s ease-in;
+    }
+
+    .icon-second {
+      width: 45px;
+      left: 20%;
+    }
+  }
+}
